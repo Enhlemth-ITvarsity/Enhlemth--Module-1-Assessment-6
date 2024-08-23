@@ -1,0 +1,38 @@
+body h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 250px;
+    font-weight: 900;
+    color: transparent;
+    background-image: url(https://media.giphy.com/media/YrIoypb7Y4pCKCwiEE/giphy.gif?cid=ecf05e47qebslijqmxbr6eu8dbklmjm4g4boqy7vy8rlq2ns&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    opacity: 0.6;
+    padding-left: 20px;
+    margin-left: auto;
+    width: 100%;
+    padding-top: 5px;
+}
+
+body h2{
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 70px;
+    color: rgb(221, 133, 183);
+    padding-left: 22px;
+    text-align: center;
+}
+
+body p{
+    color: rgb(221, 133, 183);
+    text-align:center;
+    display: block;
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+    
+    
+
+}

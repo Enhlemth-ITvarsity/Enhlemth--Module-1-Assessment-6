@@ -1,0 +1,147 @@
+body h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 250px;
+    font-weight: 900;
+    color: transparent;
+    background-image: url(https://media.giphy.com/media/YrIoypb7Y4pCKCwiEE/giphy.gif?cid=ecf05e47qebslijqmxbr6eu8dbklmjm4g4boqy7vy8rlq2ns&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    opacity: 0.6;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    width: 100%;
+}
+
+
+
+body h2{
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 70px;
+    color: rgb(221, 133, 183);
+    padding-left: 22px;
+    text-align: center;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    min-height: 100px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.container form{
+    width: 670px;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background: rgb(247, 174, 215);
+    background-color:blur (30px) rgb(221, 133, 183);
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.container form h1{
+    color: rgb(221, 133, 183);
+    font-weight:700;
+    line-height:2;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+
+.container form input{
+    width:300px;
+    height: 50px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid rgb(221, 133, 183);
+    color:rgb(221, 133, 183);
+
+}
+
+.container form input::placeholder{
+    color:rgb(221, 133, 183);
+}
+
+.container form #lastname,
+.container form #mobile{
+    margin-left:20px;
+
+}
+
+.container form h4{
+    color:rgb(221, 133, 183);
+    width: 600px;
+    font-weight: 300;
+    margin-top: 20px;
+
+}
+
+.container form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(221, 133, 183);
+    color: rgb(221, 133, 183);
+    font-weight: 200;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    min-height: 90px;
+    max-height: 90px;
+    min-width: 620px;
+    max-width: 620px;
+}
+
+.container form h4{
+    font-size: 20px;
+
+}
+
+.container form #button{
+    border: none;
+    background: rgb(221, 133, 183);
+    border-radius:5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(248, 8, 144);
+    width:200px;
+    height: 60px;
+    padding:0;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.container form #button:hover{
+    background: white;
+    color:rgb(242, 132, 165);
+    transition: 0.5s ease-in-out;
+
+}
+
+body h3{
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 30px;
+    color:rgb(221, 133, 183);
+}
+
+
